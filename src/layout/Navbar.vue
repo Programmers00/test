@@ -1,10 +1,8 @@
 <template>
   <v-app-bar app hide-on-scroll color="myBlack" flat>
     <v-container flex contain class="pa-5 mb-7 fill-height">
-      <v-avatar color="white" size="32">
-        <v-icon x-large color="myBlack"> mdi-bug </v-icon>
-      </v-avatar>
-      <v-toolbar-title class="white--text">NOhBUG</v-toolbar-title>
+      <v-icon x-large color="white"> mdi-bug </v-icon>
+      <v-toolbar-title class="white--text text-h4">NOhBUG</v-toolbar-title>
       <v-spacer></v-spacer>
       <div v-if="$vuetify.breakpoint.width >= 1240 ? true : false">
         <v-btn v-for="link in links" :key="link" text color="white">

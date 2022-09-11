@@ -5,7 +5,7 @@
       <v-col class="ma-0 pa-0">
         <v-card flat tile color="myGrey">
           <v-card-title class="pt-16 pl-16 pb-8 myBlack--text text-h5">
-            Image: Lorem Ipsum has been the industry's standard dummy.
+            About: Lorem Ipsum has been the industry's standard dummy.
           </v-card-title>
         </v-card>
       </v-col>
@@ -24,7 +24,7 @@
 export default {
   name: "About",
   components: {},
-  data: () => ({}),
+  data: () => ({ aboutData: "aboutDataString" }),
   watch: {},
   computed: {},
   mounted() {},
