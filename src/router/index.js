@@ -11,9 +11,9 @@ const routes = [
         component: () => import('@/views/main/Index')
     },
     {
-        path: "/test1",
-        name: 'Test1',
-        component: () => import('@/views/test1/Index')
+        path: "/api",
+        name: 'Api',
+        component: () => import('@/views/api/Index')
     },
     {
         path: "/test2",

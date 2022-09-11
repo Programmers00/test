@@ -44,7 +44,7 @@ export default {
   data: () => ({
     information: [
       {
-        title: "Information1",
+        title: "Api",
         subtitle: `Suspendisse sit amet sodales mi. Nulla maximus dui quis eros tempus, tempor hendrerit tortor rhoncus. Mauris at massa ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi consectetur fermentum lacus, in vehicula nunc auctor ac. Quisque ac magna eros.`,
       },
       {
