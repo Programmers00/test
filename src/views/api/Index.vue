@@ -1,7 +1,7 @@
 <template>
   <v-container fluid class="ma-0 pa-0">
     <v-card min-height="30vh" flat tile color="myGrey">
-      <v-card-title>axios api example</v-card-title>
+      <v-card-title class="mx-16 mt-8">Axios</v-card-title>
       <v-btn class="mx-16 mt-8" @click="getData">GET</v-btn>
       <v-btn class="mx-16 mt-8" @click="postData">POST</v-btn>
       <v-btn class="mx-16 mt-8" @click="putData">PUT</v-btn>
